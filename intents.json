@@ -1,0 +1,63 @@
+{
+    "intents": [
+    {
+        "tag": "greeting",
+        "patterns":[
+            "Hi",
+            "Hey",
+            "What's up?",
+            "Hey, How are you doing?",
+            "Wagwan"
+        ],
+        "responses": [
+            "Wagwan",
+            "What Can I do for you?",
+            "What's good",
+            "Hello, How are you?",
+            "Hi"
+        ]
+    },
+
+    {
+        "tag": "to-do-list",
+        "patterns":[
+            "what is there to do today?",
+            "check my calendar",
+            "What should I do?",
+            "what's the plan?"
+        ],
+        "responses": [
+            "All we have to do is code bro",
+            "Don't forget to shower today",
+            "There is World Cup",
+            "Arsenal is playing today and the whole world is happy"
+        ]
+    },
+
+    {
+        "tag": "name",
+        "patterns":[
+            "What is your name?",
+            "Who are you?",
+            "I would like to know you"
+        ],
+        "responses": [
+            "My name is Jake!"
+        ]
+        
+    },  
+
+    {
+        "tag": "file",
+        "patterns": [
+            "Create a file",
+            "Create document",
+            "Create a new file"
+        ],
+        "responses":[
+
+        ]
+    }
+
+]
+}
